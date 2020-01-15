@@ -3,19 +3,25 @@ import numpy as np
 import xlrd
 import os
 import glob
+from pandas import ExcelWriter
 
 # read in the protein files
 colon_tumors_pro = pd.read_excel(
     'proteomics data/colon tumors/2017-03-19_Haigis_5v5_Pro copy.xlsx', 'Protein', index_col=None, na_values=['NA'])
 pancreas_tumors_pro = pd.read_excel(
-    '/Users/benjaminwu/Desktop/excel_script/proteomics data/pancreas tumors/2017-10-05_EP_KH_panc_Pro copy.xlsx', index_col=None, na_values=['NA'])
+    'proteomics data/pancreas tumors/2017-10-05_EP_KH_panc_Pro copy.xlsx', 'protein_quant_14396', index_col=None, na_values=['NA'])
 scraped_colon_pro = pd.read_excel(
-    '/Users/benjaminwu/Desktop/excel_script/proteomics data/scraped colon/2015-03_HaigisMouseColon8plex_Prot copy.xlsx', index_col=None, na_values=['NA'])
+    'proteomics data/scraped colon/2015-03_HaigisMouseColon8plex_Prot copy.xlsx', 'Prot', index_col=None, na_values=['NA'])
 whole_pancreas_pro = pd.read_excel(
-    '/Users/benjaminwu/Desktop/excel_script/proteomics data/whole pancreas/2015-11_HaigisMousePancPro copy.xlsx', index_col=None, na_values=['NA'])
+    'proteomics data/whole pancreas/2015-11_HaigisMousePancPro copy.xlsx', 'Quantified Protein', index_col=None, na_values=['NA'])
 
 
-# change dates back to the gene names
+def concatenate_files():
+    df = pd.concat([colon_tumors_pro, pancreas_tumors_pro, scraped_colon_pro,
+                    whole_pancreas_pro], keys=['colon tumors pro', 'pancreas tumors pro', 'scraped colon pro', 'whole pancreas pro'], sort=False)
+    return df
+
+
 def date_to_gene(df):
     # remove all rows that have ##
     df = df[~df['Protein Id'].str.contains('##', na=False)]
@@ -32,11 +38,8 @@ def date_to_gene(df):
 
     # TO DO: delete extra entries that are not relevant
 
-    # write df to csv
-    df2.to_csv('edited1.csv')
+    # write df to excel
+    df2.to_excel('edited1.xlsx')
 
 
-# date_to_gene(cprot)
-
-
-# new_cprot.to_excel('bar1.xlsx')
+date_to_gene(concatenate_files())

@@ -1,0 +1,94 @@
+,Peptides,Protein,protein_quant_14396,Key,Prot,Quantified Protein
+0,"                     ProteinId GeneSymbol                                        Description  Redundancy Unique/ Razor           PeptideSequence  ... Unnamed: 10 Unnamed: 11 Unnamed: 12 Unnamed: 13 Unnamed: 14 Unnamed: 15
+0                          NaN        NaN                                                NaN         NaN           NaN                       NaN  ...    control5       KRAS1       KRAS2       KRAS3       KRAS4       KRAS5
+1                          NaN        NaN                                                NaN         NaN           NaN                       NaN  ...        128c        129n        129c        130n        130c         131
+2       tr|E9QM38|E9QM38_MOUSE    Slc12a2     E9QM38_MOUSE Solute carrier family 12 member 2         1.0             R  R.AAAAAAAAAAAAAAAGAAGK.E  ...     137.367     135.053     150.653     160.025     141.432     100.018
+3       tr|E9QM38|E9QM38_MOUSE    Slc12a2     E9QM38_MOUSE Solute carrier family 12 member 2         1.0             R         R.GEGTPAAGDGLGR.P  ...      40.105      47.898     39.6124     56.3333     58.5732     40.6837
+4       tr|E9QM38|E9QM38_MOUSE    Slc12a2     E9QM38_MOUSE Solute carrier family 12 member 2         1.0             R            K.LLEASTQFQK.K  ...     181.278     130.367      156.73     161.191     176.037     114.539
+...                        ...        ...                                                ...         ...           ...                       ...  ...         ...         ...         ...         ...         ...         ...
+91591    sp|O35207|CDKA1_MOUSE    Cdk2ap1  CDKA1_MOUSE Cyclin-dependent kinase 2-associat...         1.0             R         K.YAELLAIIEELGK.E  ...     34.7954     26.1317     33.5532     36.7416     42.7623     19.5036
+91592    sp|Q78IK2|USMG5_MOUSE      Usmg5  USMG5_MOUSE Up-regulated during skeletal muscl...         0.0             U            K.YFNSYTLTGR.M  ...     34.5459     25.8815     37.7857      29.661     36.6171     32.1766
+91593    sp|Q78IK2|USMG5_MOUSE      Usmg5  USMG5_MOUSE Up-regulated during skeletal muscl...         0.0             U            K.YFNSYTLTGR.M  ...     26.4807     29.2282     29.3495      27.689     32.2331     26.7014
+91594  ##sp|Q8CIR4|TRPM6_MOUSE    ##Trpm6  ##TRPM6_MOUSE ##Transient receptor potential c...         0.0             U             K.YFVGEIWSK.K  ...     179.827     341.706     332.754     359.635     287.109     268.743
+91595    sp|Q8VIK2|M17L2_MOUSE    Mpv17l2                   M17L2_MOUSE Mpv17-like protein 2         0.0             U        K.YWVPEPLQTPGCAD.-  ...      135.85     124.644     131.977     132.913     144.451     102.248
+
+[91596 rows x 16 columns]","                   Protein Id Gene Symbol                                        Description  Number of peptides RAW sum signal-to-noise Unnamed: 5  ... Unnamed: 32 Unnamed: 33 Unnamed: 34 Unnamed: 35 Unnamed: 36 Unnamed: 37
+0                         NaN         NaN                                                NaN                 NaN                control1   control2  ...       KRAS4       KRAS5         NaN         NaN         NaN         NaN
+1                         NaN         NaN                                                NaN                 NaN                     126       127n  ...        130c         131         NaN         NaN         NaN         NaN
+2      tr|E9QM38|E9QM38_MOUSE     Slc12a2     E9QM38_MOUSE Solute carrier family 12 member 2                52.0                 10796.9    11944.3  ...     9.06996     9.00186         NaN         NaN         NaN         NaN
+3       sp|Q91V81|RBM42_MOUSE       Rbm42                 RBM42_MOUSE RNA-binding protein 42                14.0                 2040.33    2165.52  ...     10.2955     9.06125         NaN         NaN         NaN         NaN
+4       sp|P60330|ESPL1_MOUSE       Espl1                                ESPL1_MOUSE Separin                 1.0                 77.9906    67.0416  ...     9.96763     10.2984         NaN         NaN         NaN         NaN
+...                       ...         ...                                                ...                 ...                     ...        ...  ...         ...         ...         ...         ...         ...         ...
+8182  ##sp|Q80T32|GP133_MOUSE    ##Gpr133  ##GP133_MOUSE ##Probable G-protein coupled rec...                 1.0                 136.511    161.835  ...     8.90658     11.2601         NaN         NaN         NaN         NaN
+8183   tr|Q6T5E4|Q6T5E4_MOUSE       Gcnt2  Q6T5E4_MOUSE Glucosaminyl (N-acetyl) transfera...                 1.0                 148.615    151.866  ...      11.217     10.8873         NaN         NaN         NaN         NaN
+8184    sp|Q9Z2Y2|B4GT2_MOUSE     B4galt2       B4GT2_MOUSE Beta-1,4-galactosyltransferase 2                 1.0                 175.524     173.74  ...     9.72341     10.7222         NaN         NaN         NaN         NaN
+8185    sp|Q8VIK2|M17L2_MOUSE     Mpv17l2                   M17L2_MOUSE Mpv17-like protein 2                 1.0                 142.153     135.87  ...     10.2609     9.51447         NaN         NaN         NaN         NaN
+8186    sp|Q9CYH5|GFOD2_MOUSE       Gfod2  GFOD2_MOUSE Glucose-fructose oxidoreductase do...                 1.0                 38.0322    49.1867  ...       8.552     8.27955         NaN         NaN         NaN         NaN
+
+[8187 rows x 38 columns]",,,,
+1,,,"                    Unnamed: 0   Unnamed: 1                                         Unnamed: 2          Unnamed: 3 RAW sum signal-to-noise Unnamed: 5  ... Unnamed: 31 Unnamed: 32 Unnamed: 33 Unnamed: 34 Unnamed: 35 Unnamed: 36
+0                          NaN          NaN                                                NaN                 NaN                   PDX_1      PDX_2  ...    PDXp53_3        D314        D693        D705        D751        D756
+1                   Protein Id  Gene Symbol                                        Description  Number of peptides                     126       127n  ...        129n        129c        130n        130c         131        131c
+2       tr|E9QM38|E9QM38_MOUSE      Slc12a2     E9QM38_MOUSE Solute carrier family 12 member 2                   6                 200.917    132.048  ...     4.35591     28.1407       16.97      10.317     6.17062     8.97397
+3        sp|Q6ZQ88|KDM1A_MOUSE        Kdm1a  KDM1A_MOUSE Lysine-specific histone demethylas...                   9                 587.965    416.688  ...      6.2594      11.424     12.0652     12.6172      14.536     12.2295
+4        sp|Q80VI1|TRI56_MOUSE       Trim56     TRI56_MOUSE E3 ubiquitin-protein ligase TRIM56                   1                 23.2935    29.7393  ...     10.3474     12.2358     11.8688     8.23911     5.12435     6.89218
+...                        ...          ...                                                ...                 ...                     ...        ...  ...         ...         ...         ...         ...         ...         ...
+6407     sp|Q9JL18|BACE2_MOUSE        Bace2                       BACE2_MOUSE Beta-secretase 2                   2                 87.8752    53.1581  ...      2.3175     21.0173     30.4982     19.2409     8.12725     7.61591
+6408  ##tr|E9PZU3|E9PZU3_MOUSE      ##Rabl2               ##E9PZU3_MOUSE ##Rab-like protein 2A                   2                 577.364     31.656  ...    0.845084      10.944     9.70343     51.5603     12.9301      5.3307
+6409     sp|Q62141|SIN3B_MOUSE        Sin3b  SIN3B_MOUSE Paired amphipathic helix protein S...                   2                 42.8755    38.0972  ...     3.81953     14.4904     13.8047     10.9631     25.3993     12.4972
+6410     sp|Q6PIX5|RHDF1_MOUSE       Rhbdf1            RHDF1_MOUSE Inactive rhomboid protein 1                   1                   19.51    19.0625  ...     10.1509     9.91355     9.53691     3.63167     18.3792     5.45482
+6411      sp|P46412|GPX3_MOUSE         Gpx3                GPX3_MOUSE Glutathione peroxidase 3                   1                 26.9408    25.1146  ...     8.95334     12.7189     16.5644     6.09774     6.03603     6.14608
+
+[6412 rows x 37 columns]",,,
+2,,,,"           Protein Id                     Uniprot ID and accession number
+0          Gene Symbol                                        gene symbol
+1          Description                 protein name and short description
+2   Number of peptides                      number of peptides quantified
+3               FABP_1  normalized sum signal-to-noise of reporter ion...
+4               FABP_2  normalized sum signal-to-noise of reporter ion...
+5               FABP_4  normalized sum signal-to-noise of reporter ion...
+6               FABP_5  normalized sum signal-to-noise of reporter ion...
+7          2171_G12D_1  normalized sum signal-to-noise of reporter ion...
+8          2172_G12D_2  normalized sum signal-to-noise of reporter ion...
+9               G12D_3  normalized sum signal-to-noise of reporter ion...
+10              G12D_4  normalized sum signal-to-noise of reporter ion...","                 Protein Id Gene Symbol                                        Description  Group ID  Number of peptides Collapsed?  ...  2172_G12D_2     G12D_3     G12D_4  Unnamed: 14  Unnamed: 15  Unnamed: 16
+0     sp|Q6ZQ88|KDM1A_MOUSE       Kdm1a  KDM1A_MOUSE Lysine-specific histone demethylas...         0                  17          C  ...    1370.3100  1317.3900  1336.4100  1330.042500  1357.285000     1.020482
+1      sp|Q9DC71|RT15_MOUSE      Mrps15  RT15_MOUSE 28S ribosomal protein S15, mitochon...         1                   9          C  ...    1734.7700  1792.3500  1868.4100  1206.138750  1800.512500     1.492791
+2     sp|Q64127|TIF1A_MOUSE      Trim24  TIF1A_MOUSE Transcription intermediary factor ...         2                   7          C  ...     715.3110   701.5720   807.0200   759.695750   732.604000     0.964339
+3     sp|Q80WW9|DDRGK_MOUSE      Ddrgk1      DDRGK_MOUSE DDRGK domain-containing protein 1         4                   3          C  ...     710.9790   764.6580   792.2740   779.796000   747.695750     0.958835
+4      sp|Q9R1Y5|HIC1_MOUSE        Hic1     HIC1_MOUSE Hypermethylated in cancer 1 protein         5                   1          C  ...     194.1660   169.1530   187.7890   250.906000   180.906750     0.721014
+...                     ...         ...                                                ...       ...                 ...        ...  ...          ...        ...        ...          ...          ...          ...
+8156  sp|Q62141|SIN3B_MOUSE       Sin3b  SIN3B_MOUSE Paired amphipathic helix protein S...      5778                   2          C  ...      53.5629    46.6305    44.5508    43.544575    50.276700     1.154603
+8157   sp|Q8VCP8|KAD6_MOUSE         Ak6            KAD6_MOUSE Adenylate kinase isoenzyme 6      5779                   1          C  ...     159.0560   136.7430   186.4010   158.317250   154.544000     0.976167
+8158  sp|Q8K2P7|S38A1_MOUSE     Slc38a1  S38A1_MOUSE Sodium-coupled neutral amino acid ...      5781                   1          C  ...     144.0270   128.9970   154.6130   165.174500   139.592250     0.845120
+8159  sp|Q8VH37|HDAC8_MOUSE       Hdac8                  HDAC8_MOUSE Histone deacetylase 8      5782                   1          C  ...      91.0890    91.2840   104.7480    98.478300    98.551000     1.000738
+8160  sp|Q99LG1|TMM51_MOUSE      Tmem51               TMM51_MOUSE Transmembrane protein 51      5783                   1          C  ...      16.9203    18.1522    24.4642    20.474250    18.747125     0.915644
+
+[8161 rows x 17 columns]",
+3,,,,"           Protein Id                     Uniprot ID and accession number
+0          Gene Symbol                                        gene symbol
+1          Description                 protein name and short description
+2   Number of peptides                      number of peptides quantified
+3                 wt_1  normalized total sum signal-to-noise of report...
+4                 wt_2  normalized total sum signal-to-noise of report...
+5                 wt_3  normalized total sum signal-to-noise of report...
+6                 wt_4  normalized total sum signal-to-noise of report...
+7                A146T  normalized total sum signal-to-noise of report...
+8                A146T  normalized total sum signal-to-noise of report...
+9                A146T  normalized total sum signal-to-noise of report...
+10                G12D  normalized total sum signal-to-noise of report...
+11                G12D  normalized total sum signal-to-noise of report...
+12                G12D  normalized total sum signal-to-noise of report...",,"                  Protein Id Gene Symbol                                        Description  Number of peptides      wt_1      wt_2      wt_3      wt_4     A146T    A146T.1   A146T.2      G12D    G12D.1    G12D.2
+0     tr|E9QM38|E9QM38_MOUSE     Slc12a2     E9QM38_MOUSE Solute carrier family 12 member 2                   8  797.8270  788.0070  763.5560  580.3830  782.1380  741.96600  795.5420  866.2160  893.6250  779.0850
+1      sp|Q14AX6|CDK12_MOUSE       Cdk12             CDK12_MOUSE Cyclin-dependent kinase 12                   3  298.4290  314.0760  283.4770  268.8130  349.6460  295.07200  306.0300  278.4280  285.6820  347.6530
+2       sp|Q9DC71|RT15_MOUSE      Mrps15  RT15_MOUSE 28S ribosomal protein S15, mitochon...                   7  606.0140  658.4780  627.4440  472.9470  777.5470  936.09700  911.5590  724.4300  670.9720  672.0260
+3      sp|Q64127|TIF1A_MOUSE      Trim24  TIF1A_MOUSE Transcription intermediary factor ...                   5  384.2820  407.5670  324.5770  389.7540  408.7560  358.20300  387.7570  413.0510  432.3960  433.1810
+4      sp|Q99PP7|TRI33_MOUSE      Trim33     TRI33_MOUSE E3 ubiquitin-protein ligase TRIM33                   2   40.4383   38.2787   42.5348   22.1156   55.9396   55.41310   49.4437   62.4309   62.3004   52.3431
+...                      ...         ...                                                ...                 ...       ...       ...       ...       ...       ...        ...       ...       ...       ...       ...
+6088    sp|P11680|PROP_MOUSE         Cfp                               PROP_MOUSE Properdin                   1   28.7267   40.0700   33.9021   24.6129   28.3807   42.95330   27.6084   92.1516   75.5675   66.4986
+6089   sp|O89051|ITM2B_MOUSE       Itm2b           ITM2B_MOUSE Integral membrane protein 2B                   1   28.2117   23.6320   25.4094   19.4316   24.2064   32.73410   34.3794   28.5825   29.8639   28.7394
+6090    sp|O70200|AIF1_MOUSE        Aif1         AIF1_MOUSE Allograft inflammatory factor 1                   1   28.1942   30.4038   18.1200   15.3543   16.3828    7.20457   11.1109   40.0818   58.4533   61.5796
+6091   sp|Q8BH44|COR2B_MOUSE      Coro2b                             COR2B_MOUSE Coronin-2B                   1   74.5682   57.3093   84.2701   48.7734   86.9372  114.67600   94.2564  100.5000  112.2920   97.3727
+6092   sp|Q8VH37|HDAC8_MOUSE       Hdac8                  HDAC8_MOUSE Histone deacetylase 8                   1   23.0190   18.3693   27.2445   15.2186   27.5221   31.98100   31.8523   30.9684   32.0715   23.7458
+
+[6093 rows x 14 columns]"
